@@ -1,0 +1,14 @@
+* div {
+  width: 100%;
+}
+
+body {
+  background: brown;
+}
+
+@media(min-width: 1000px){
+  body {
+    background: rgb(7, 78, 7)
+  };
+
+}
