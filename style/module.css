@@ -1,0 +1,11 @@
+div {
+  border: black solid thin;
+  background: grey;
+}
+
+@media(min-width: 768px) {
+  div {
+    border: green solid thin;
+    background: brown;
+  }
+}
