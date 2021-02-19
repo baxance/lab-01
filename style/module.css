@@ -5,7 +5,15 @@ div {
 
 @media(min-width: 768px) {
   div {
-    border: green solid thin;
+    border: green solid thick;
     background: brown;
+  }
+}
+
+@media(min-width: 1024px) {
+  div {
+    border: red solid thick;
+    background: black;
+    color: green;
   }
 }
